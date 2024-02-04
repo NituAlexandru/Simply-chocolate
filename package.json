@@ -5,14 +5,14 @@
   "homepage": "https://NituAlexandru.github.io/Simply-chocolate",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /Simply-chocolate/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://NituAlexandru/Simply-chocolate.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Nitu Nicolae Alexandru <nitzu_alexandru@yahoo.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://NituAlexandru/Simply-chocolate/issues"
