@@ -38,4 +38,49 @@
   text-align: justify;
 }
 @media screen and (min-width: 768px) {
+  .advantages-container {
+    padding-left: 0;
+    padding-right: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 704px;
+  }
+  .advantages-list {
+    padding: 0px 28px 0px 0px;
+    width: 336px;
+    height: 243px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .advantages-container {
+    width: 1200px;
+    padding: 40px 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+  }
+  .advantages-list {
+    padding: 0;
+    width: 326px;
+    height: 244px;
+  }
+  .advantages-container::before,
+  .advantages-container::after {
+    content: '';
+    position: absolute;
+    top: 100px;
+    width: 1px; /* Lățimea liniei */
+    background-color: #ffffff; /* Culoarea liniei */
+  }
+
+  .advantages-container::before {
+    left: 29.5%; /* Poziția primei linii */
+    height: 124px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .advantages-container::after {
+    left: 63.5%; /* Poziția celei de-a doua linii */
+    height: 124px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
 }
