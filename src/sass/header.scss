@@ -83,7 +83,6 @@ body {
   color: #fd9222;
 }
 .header-modal-button {
-  background-color: #fff;
   border: none;
 }
 
@@ -178,6 +177,12 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+  .header-logo {
+    font-size: 18px;
+  }
+  .header-modal-button {
+    display: none;
+  }
   .header-section {
     padding-left: 0;
     padding-right: 0;
@@ -199,21 +204,34 @@ body {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 16px; /* 114.286% */
+    line-height: 16px;
     letter-spacing: -0.28px;
   }
   .header-navigation-bar li {
     transition: var(--animation-duration);
+    position: relative;
+    overflow: hidden;
+  }
+  .header-navigation-bar li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #fd9222;
+    transition: width 0.4s ease-in-out;
+  }
+  .header-navigation-bar li:hover::after,
+  .header-navigation-bar li:focus::after {
+    width: 100%;
   }
 
-  .header-navigation-bar li:hover,
-  .header-navigation-bar li:focus {
-    margin-left: 12px;
-    margin-right: 12px;
-    color: #fd9222;
-    scale: 1.2;
+  .header-navigation-bar li:not(:hover)::after {
+    width: 0%;
+    transition: width 0.4s ease-in-out, left 0.4s ease-in-out;
+    left: 100%;
   }
-
   .header-icons-bar {
     display: flex;
     gap: 18px;
