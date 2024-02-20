@@ -280,6 +280,10 @@
   border: none;
   border-radius: 100px;
   background: #fd9222;
+  cursor: pointer;
+}
+.buy-area-submit-btn:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px) {
@@ -400,6 +404,10 @@
   }
   .buy-now-modal {
     justify-content: space-around;
-    height: 70%;
+    height: 85%;
+  }
+  .buy-now-close-btn {
+    width: 30px;
+    height: 30px;
   }
 }
