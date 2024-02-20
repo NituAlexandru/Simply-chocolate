@@ -19,6 +19,7 @@ ul {
   display: flex;
   padding: 25px 20px;
   position: relative;
+  align-items: center;
 }
 
 .header-logo {
@@ -163,11 +164,11 @@ ul {
   cursor: pointer;
   width: 28px;
   height: 28px;
-  transition: var(--animation-duration);
 }
 .fa-solid {
   color: #fff;
   font-size: 35px;
+  transition: var(--animation-duration);
 }
 .fa-solid:hover,
 .fa-solid:focus {
@@ -223,7 +224,7 @@ ul {
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 16px;
     letter-spacing: -0.28px;
   }
@@ -231,6 +232,10 @@ ul {
     transition: var(--animation-duration);
     position: relative;
     overflow: hidden;
+  }
+  .header-navigation-bar li:hover {
+    transition: var(--animation-duration);
+    color: #fd9222;
   }
   .header-navigation-bar li::after {
     content: '';
