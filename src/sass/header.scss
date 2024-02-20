@@ -1,6 +1,10 @@
 :root {
   --animation-duration: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -234,6 +238,7 @@ ul {
     transition: var(--animation-duration);
     position: relative;
     overflow: hidden;
+    padding-bottom: 5px;
   }
   .header-navigation-bar li:hover {
     transition: var(--animation-duration);

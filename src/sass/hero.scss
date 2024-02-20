@@ -383,7 +383,10 @@
 
 @media screen and (min-width: 1200px) {
   .main-container {
-    width: 100%;
+    border-radius: 30px;
+    width: 1200px;
+    height: 600px;
+    padding: 0;
   }
 
   .hero-main-section {
