@@ -15,6 +15,10 @@
     />
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
     <link rel="stylesheet" href="../src/index.scss" />
@@ -32,10 +36,43 @@
     <include src="./partials/subscribe.html"></include>
     <include src="./partials/footer.html"></include>
     <!-- JS Scripts -->
+
     <script type="module" src="./js/mobile-menu.js"></script>
     <script type="module" src="./js/top-sellers.js"></script>
     <script type="module" src="./js/products.js"></script>
     <script type="module" src="./js/reviews.js"></script>
     <script type="module" src="./js/subscribe-modal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        direction: 'horizontal',
+        loop: true,
+
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2.6,
+          },
+          1200: {
+            slidesPerView: 4,
+          },
+        },
+        spaceBetween: 18,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        pauseOnHover: true,
+        pauseOnFocus: true,
+        pauseOnDotsHover: true,
+        waitForAnimate: false,
+        variableWidth: true,
+      });
+    </script>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>

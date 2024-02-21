@@ -1,0 +1,107 @@
+.our-products {
+  margin-top: 60px;
+}
+
+.our-products-title {
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.our-products-title-span {
+  color: var(--orange-main);
+}
+.our-products-item {
+  padding: 32px 52px;
+  text-align: center;
+  border: 1px solid #fd922233;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 364px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.our-products-chocolate-describe {
+  margin-top: 8px;
+}
+.our-products-chocolate-name {
+  margin-bottom: 2px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--black-main);
+}
+.our-products-chocolate-type {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  color: var(--black-main);
+}
+.our-products-chocolate-button {
+  margin-top: 18px;
+  padding: 8px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--black-main);
+  text-transform: uppercase;
+  background: var(--white-main);
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+  transition: cubic-bezier(0.4, 0, 0.2, 1), border cubic-bezier(0.4, 0, 0.2, 1),
+    color cubic-bezier(0.4, 0, 0.2, 1);
+}
+.our-products-chocolate-button:hover,
+.our-products-chocolate-button:focus {
+  background: var(--orange-main);
+  border: 1px solid var(--orange-main);
+  color: var(--white-main);
+}
+.swiper {
+  width: 335px;
+  height: 453px;
+}
+.swiper-pagination-bullet {
+  background: var(--black-main);
+  width: 13px;
+  height: 13px;
+}
+.swiper-pagination-bullet-active {
+  width: 28px;
+  height: 13px;
+  background: var(--orange-main);
+  border-radius: 100px;
+}
+@media screen and (min-width: 768px) {
+  .swiper {
+    width: 704px;
+    height: 442px;
+  }
+
+  .our-products-item {
+    border: 1px solid #fd922233;
+    border-radius: 15px;
+    width: 270px;
+    height: 364px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .swiper {
+    width: 1200px;
+  }
+
+  .our-products-item {
+    border: 1px solid #fd922233;
+    border-radius: 15px;
+  }
+}
