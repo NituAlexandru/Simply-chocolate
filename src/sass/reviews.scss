@@ -9,7 +9,7 @@
   padding-top: 72px;
 }
 .reviews-section {
-  background-color: #fafafa;
+  background-color: var(--white-main);
 }
 section {
   display: block;
@@ -45,7 +45,7 @@ section {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: var(--white-main);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,7 +58,7 @@ section {
   margin-top: 100px;
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: var(--white-main);
   display: flex;
   width: 335px;
   height: 200px;
@@ -84,7 +84,7 @@ section {
   line-height: 1.33em;
   padding-bottom: 24px;
   text-align: center;
-  color: #111;
+  color: var(--black-main);
 }
 p:last-child {
   margin-bottom: 0;
@@ -113,10 +113,10 @@ p:last-child {
   z-index: 10;
 }
 .swiper-pagination > span {
-  background-color: #fff;
-  color: #fd9222;
-  background-color: #fd9222;
-  border: solid 1px #fd9222;
+  background-color: var(--white-main);
+  color: var(--orange-main);
+  background-color: var(--orange-main);
+  border: solid 1px var(--orange-main);
   margin-top: 20px;
 }
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
@@ -142,22 +142,22 @@ p:last-child {
 .button-review {
   font: inherit;
   padding: 14px 40px;
-  border: 1px solid #fd9222;
+  border: 1px solid var(--orange-main);
   border-radius: 100px;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.2em;
-  background-color: #fafafa;
+  background-color: var(--white-main);
   transition: ease-in-out 0.3s;
-  color: #111;
+  color: var(--black-main);
   cursor: pointer;
 }
 .button-review:hover,
 .button-review:focus {
-  background-color: #fd9222;
-  color: #fafafa;
+  background-color: var(--orange-main);
+  color: var(--white-main);
 }
-/*MODAL REVIEW CSS*/
+// Modal ---------------------------------------
 .backdrop {
   position: fixed;
   left: 0;
@@ -185,7 +185,7 @@ p:last-child {
   height: 500px;
   padding: 22px 20px;
   padding-top: 50px;
-  background: #fafafa;
+  background: var(--white-main);
   border-radius: 15px;
   transition-duration: 0.3s;
   display: none;
@@ -203,7 +203,7 @@ p:last-child {
   height: 100%;
 }
 .review-modal-close:hover {
-  color: #fd9222;
+  color: var(--orange-main);
 }
 
 .callout {
@@ -213,7 +213,7 @@ p:last-child {
   width: 24px;
   height: 24px;
   padding: 0;
-  color: #000;
+  color: var(--black-main);
   background: transparent;
   transition: stroke 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -237,7 +237,7 @@ p:last-child {
   line-height: 1.2;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-  color: #111;
+  color: var(--black-main);
   max-width: 255px;
   height: 48px;
   align-self: center;
@@ -277,7 +277,7 @@ p:last-child {
   line-height: 1.2;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-  color: #fd9222;
+  color: var(--orange-main);
 }
 
 .modal-review-input,
@@ -292,7 +292,7 @@ p:last-child {
 }
 .modal-review-input:focus,
 .user-form-review:focus {
-  border: 1.5px solid #fd9222;
+  border: 1.5px solid var(--orange-main);
 }
 .modal-buy-now-input-wrapper {
   position: relative;
@@ -315,7 +315,7 @@ p:last-child {
   transform: translateY(-50%);
   top: 43%;
   left: 66px;
-  color: #000;
+  color: var(--black-main);
 }
 
 .user-form-review {
@@ -335,11 +335,11 @@ p:last-child {
   font-weight: 600;
   font-size: 14px;
   line-height: 1.21;
-  color: #fff;
+  color: var(--white-main);
   width: 93px;
   height: 41px;
   padding: 12px 28px;
-  background: #fd9222;
+  background: var(--orange-main);
   border-radius: 100px;
   margin-top: 18px;
   border: none;
@@ -349,9 +349,9 @@ p:last-child {
   cursor: pointer;
 }
 .send-btn:hover {
-  background: #fff;
-  color: #fd9222;
-  border: 1px solid #fd9222;
+  background: var(--white-main);
+  color: var(--orange-main);
+  border: 1px solid var(--orange-main);
 }
 // ---------------------------------------------------------
 
