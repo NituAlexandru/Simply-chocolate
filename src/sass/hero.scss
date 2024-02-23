@@ -61,7 +61,7 @@
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 600;
-  transition: var(--animation-duration);
+  transition: all 0.3s ease-out;
 }
 .buy-now-btn:focus,
 .buy-now-btn:hover {
@@ -82,7 +82,7 @@
   font-size: 14px;
   font-weight: 600;
   background-color: transparent;
-  transition: var(--animation-duration);
+  transition: all 0.3s ease-out;
 }
 
 .how-its-made-btn:focus,
