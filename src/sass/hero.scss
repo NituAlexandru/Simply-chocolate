@@ -84,14 +84,12 @@
   background-color: transparent;
   transition: all 0.3s ease-out;
 }
-
 .how-its-made-btn:focus,
 .how-its-made-btn:hover {
   color: var(--orange-main);
   border-color: var(--orange-main);
   cursor: pointer;
 }
-
 .scroll-btn {
   color: var(--white-main);
   font-size: 12px;
@@ -137,7 +135,6 @@
   pointer-events: none;
   transition: opacity 500ms linear;
 }
-
 .buy-now-modal {
   display: flex;
   flex-direction: column;
@@ -259,6 +256,27 @@
 }
 .buy-area-submit-btn:hover {
   transform: scale(1.1);
+}
+@media screen and (max-width: 400px) {
+  .main-container {
+    width: 100%;
+  }
+  .hero-main-section {
+    width: 100%;
+    padding: 300px 10px 5px 10px;
+  }
+  .hero-panel {
+    width: 100%;
+  }
+  .buy-now-btn,
+  .how-its-made-btn {
+    font-size: 12px;
+    padding: 10px 20px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 @media screen and (min-width: 768px) {
   .main-container {

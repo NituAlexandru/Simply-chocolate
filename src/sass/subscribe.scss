@@ -243,6 +243,11 @@
   background: var(--white-main);
   border: 1.5px solid var(--orange-main);
 }
+@media screen and (max-width: 400px) {
+  .subscribe-section {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 768px) {
   .subscribe-body {
     width: 768px;

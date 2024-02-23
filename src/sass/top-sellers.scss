@@ -67,6 +67,24 @@
   cursor: pointer;
   outline: none;
 }
+@media screen and (max-width: 400px) {
+  .top-sellers {
+    width: 100%;
+    padding: 0 5px;
+  }
+  .top-sellers-container {
+    width: 100%;
+  }
+  .top-sellers-image-wrapper {
+    width: 100%;
+  }
+  .top-sellers-image-wrapper img {
+    width: 100%;
+  }
+  .top-sellers-text-area {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 768px) {
   .top-sellers-container {
     width: 704px;

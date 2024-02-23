@@ -86,6 +86,25 @@
   background: var(--orange-main);
   border-radius: 100px;
 }
+@media screen and (max-width: 400px) {
+  .our-products {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+  }
+  .swiper.mySwiper {
+    min-width: 250px;
+    padding: 0 5px;
+  }
+  .our-products-list {
+    width: 100%;
+  }
+  .our-products-item.swiper-slide {
+    width: 250px;
+    height: 364px;
+  }
+}
 @media screen and (min-width: 768px) {
   .swiper {
     width: 704px;

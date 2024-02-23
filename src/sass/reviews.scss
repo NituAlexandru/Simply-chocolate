@@ -332,6 +332,35 @@ p:last-child {
   color: var(--orange-main);
   border: 1px solid var(--orange-main);
 }
+@media only screen and (max-width: 400px) {
+  .reviews-title {
+    width: 100%;
+  }
+  #chocolate-its-loved .container div {
+    padding: 0 5px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 200px;
+    margin-bottom: 15px;
+  }
+  .swiper-slide.rev {
+    width: 100%;
+    margin-right: 0;
+  }
+  #swiper-wrapper-b0274187d72bc651 {
+    width: 100%;
+  }
+  .reviews-user {
+    width: 100%;
+  }
+  .reviews-name {
+    width: 100%;
+  }
+  .reviews-text {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .callout {
     top: 8px;

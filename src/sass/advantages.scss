@@ -37,6 +37,11 @@
   color: rgba(255, 255, 255, 0.7);
   text-align: justify;
 }
+@media screen and (max-width: 400px) {
+  .advantages-container {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 768px) {
   .advantages-container {
     padding-left: 0;

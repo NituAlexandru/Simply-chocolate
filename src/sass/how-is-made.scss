@@ -71,6 +71,15 @@
   letter-spacing: -0.28px;
   text-align: justify;
 }
+@media screen and (max-width: 400px) {
+  .how-its-made {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .how-its-made-description-list {
+    padding-right: 10px;
+  }
+}
 @media screen and (min-width: 768px) {
   .how-its-made {
     width: 704px;
