@@ -1,15 +1,12 @@
 :root {
   --animation-duration: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .main-container {
   width: 375px;
   margin: 0 auto;
   padding: 0 20px;
-  font-family: 'Montserrat';
   margin-bottom: 71px;
 }
-
 .hero-main-section {
   width: 335px;
   margin: 0 auto;
@@ -35,50 +32,44 @@
     background-image: url(./images/chocolate-covered-cocoa-powder-2m.webp);
   }
 }
-
 .hero-title {
-  color: #fff;
+  color: var(--white-main);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 120%;
   letter-spacing: -0.6px;
 }
-
 .hero-panel {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
-
 .command-button-section {
   display: flex;
   gap: 14px;
 }
-
 .buy-now-btn {
   display: flex;
   padding: 12px 28px;
   align-items: flex-start;
   gap: 14px;
   border-radius: 100px;
-  background: #fd9222;
+  background: var(--orange-main);
   border: none;
-  color: #fff;
+  color: var(--white-main);
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 600;
   transition: var(--animation-duration);
 }
-
 .buy-now-btn:focus,
 .buy-now-btn:hover {
-  background-color: #fcf1e0;
-  color: #fd9222;
+  background-color: var(--white-main);
+  color: var(--orange-main);
   cursor: pointer;
   outline: none;
 }
-
 .how-its-made-btn {
   display: flex;
   align-items: center;
@@ -86,8 +77,8 @@
   width: 159px;
   height: 41px;
   border-radius: 100px;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid var(--white-main);
+  color: var(--white-main);
   font-size: 14px;
   font-weight: 600;
   background-color: transparent;
@@ -96,16 +87,16 @@
 
 .how-its-made-btn:focus,
 .how-its-made-btn:hover {
-  color: #fd9222;
-  border-color: #fd9222;
+  color: var(--orange-main);
+  border-color: var(--orange-main);
   cursor: pointer;
 }
 
 .scroll-btn {
-  color: #fff;
+  color: var(--white-main);
   font-size: 12px;
   font-weight: 500;
-  line-height: 14px; /* 116.667% */
+  line-height: 116.667%;
   letter-spacing: -0.36px;
   background-color: transparent;
   border: none;
@@ -118,15 +109,13 @@
   transition: var(--animation-duration);
   margin-top: 51px;
 }
-
 .scroll-btn svg {
   width: 28px;
   height: 28px;
 }
-
 .scroll-btn:focus,
 .scroll-btn:hover {
-  color: #fd9222;
+  color: var(--orange-main);
   cursor: pointer;
 }
 .modal-overlay {
@@ -161,7 +150,7 @@
   margin: 0 auto;
   gap: 12px;
   width: 311px;
-  background-color: #fafafa;
+  background-color: var(--white-main);
   border: none;
   border-radius: 15px;
   opacity: 1;
@@ -169,7 +158,6 @@
   transition: opacity 500ms linear;
   overflow-y: auto;
 }
-
 .buy-now-close-btn {
   width: 24px;
   height: 24px;
@@ -178,24 +166,20 @@
   top: 12px;
   right: 8px;
 }
-
 .buy-now-close-btn:focus,
 .buy-now-close-btn:hover {
   cursor: pointer;
-  color: #fd9222;
+  color: var(--orange-main);
 }
-
 .buy-now-title {
   align-self: center;
 }
-
 .buy-now-cards {
   display: flex;
   flex-direction: column;
   gap: 2px;
   padding: 0;
 }
-
 .buy-now-cards .cards {
   display: inline-flex;
   padding: 4px 16px;
@@ -203,19 +187,17 @@
   align-items: center;
   border-radius: 15px;
   border: 1px solid rgba(17, 17, 17, 0.1);
-  background: #fff;
+  background: var(--white-main);
 }
-
 .order-weight {
   padding: 6px 16px;
   border-radius: 100px;
   border: 1px solid rgba(17, 17, 17, 0.1);
-  background: #fafafa;
-  color: #111;
+  background: var(--white-main);
+  color: var(--black-main);
   font-size: 14px;
   font-weight: 600;
 }
-
 .buy-now-form {
   display: flex;
   flex-direction: column;
@@ -228,7 +210,6 @@
   line-height: normal;
   letter-spacing: -0.28px;
 }
-
 .buy-now-form input,
 .buy-now-form textarea {
   width: 100%;
@@ -238,54 +219,47 @@
   border: 1.5px solid rgba(17, 17, 17, 0.09);
   box-shadow: 0px 5.44492px 5.44492px 0px rgba(0, 0, 0, 0.03);
 }
-
 .comment-area textarea {
   padding: 14px 18px 30px 18px;
   gap: 40px;
   resize: none;
 }
-
 .buy-now-form input:focus,
 .buy-now-form textarea:focus {
   outline: none;
-  border-color: #fd9222;
+  border-color: var(--orange-main);
 }
-
 .buy-now-form input:focus {
-  border: 1.5px solid #fd9222;
+  border: 1.5px solid var(--orange-main);
 }
-
 .formular-title {
-  color: #000;
+  color: var(--black-main);
   font-family: Montserrat;
   font-size: 12px;
   font-weight: 500;
-  line-height: 14px; /* 116.667% */
+  line-height: 116.667%;
   letter-spacing: -0.24px;
 }
-
 .buy-span {
-  color: #fd9222;
+  color: var(--orange-main);
 }
-
 .buy-area-submit-btn {
   width: 109px;
   padding: 12px 28px;
   align-items: flex-start;
   gap: 14px;
-  color: #fff;
+  color: var(--white-main);
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 600;
   border: none;
   border-radius: 100px;
-  background: #fd9222;
+  background: var(--orange-main);
   cursor: pointer;
 }
 .buy-area-submit-btn:hover {
   transform: scale(1.1);
 }
-
 @media screen and (min-width: 768px) {
   .main-container {
     width: 768px;
@@ -307,13 +281,11 @@
       background-image: url(./images/chocolate-covered-cocoa-powder-2t.webp);
     }
   }
-
   .hero-title {
     font-size: 28px;
-    line-height: 34px; /* 121.429% */
+    line-height: 121.429%;
     letter-spacing: -0.84px;
   }
-
   .hero-panel {
     width: 624px;
     display: flex;
@@ -321,11 +293,9 @@
     align-items: flex-start;
     gap: 32px;
   }
-
   .hero-title {
     width: 484px;
   }
-
   .hero-btn-section {
     display: flex;
     align-items: center;
@@ -336,10 +306,9 @@
   .buy-now-btn {
     padding: 14px 40px;
   }
-
   .scroll-btn {
     font-size: 14px;
-    line-height: 18px; /* 128.571% */
+    line-height: 128.571%;
     letter-spacing: -0.42px;
     gap: 14px;
     width: 183px;
@@ -349,21 +318,18 @@
     position: absolute;
     right: 5px;
   }
-
   .buy-now-modal {
     padding: 32px 24px;
     gap: 32px;
     width: 609px;
     gap: 10px;
   }
-
   .buy-now-cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 16px;
   }
-
   .buy-now-cards .cards {
     padding: 14px 20px 8px 20px;
     display: flex;
@@ -375,12 +341,10 @@
     height: auto;
     flex-shrink: 0;
   }
-
   .buy-now-cards .cards picture {
     height: 107px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .main-container {
     border-radius: 30px;
@@ -388,7 +352,6 @@
     height: 600px;
     padding: 0;
   }
-
   .hero-main-section {
     width: 100%;
     flex-shrink: 0;
